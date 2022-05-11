@@ -1,5 +1,6 @@
 # LiTall.dev
-WebSite in construction, portfolio made in reactJS and hosted on Firebase Hosting
+WebSite in construction, portfolio made in reactJS and hosted on Firebase Hosting, [Check it out here](https://litall-dev.web.app)
+
 
 ## Available Scripts
 
