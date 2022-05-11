@@ -1,5 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import Home from "./components/home/home";
+import Experience from "./components/experience/experience";
+import Projects from "./components/projects/projects";
+import Nav from "./components/nav/nav";
 
 function App() {
   return (
@@ -8,7 +12,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>Website in construction, come back later !</p>
         <a
-          className="App-link"
+          className="btn"
           href="https://github.com/LiTallll"
           target="_blank"
           rel="noopener noreferrer"
@@ -16,6 +20,10 @@ function App() {
           Check out my GitHub
         </a>
       </header>
+      {/* <Home />
+      <Experience />
+      <Projects />
+      <Nav /> */}
     </div>
   );
 }
