@@ -8,6 +8,7 @@ import Nav from "./components/nav/nav";
 function App() {
   return (
     <div className="App">
+      <Experience />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>Website in construction, come back later !</p>
@@ -20,10 +21,9 @@ function App() {
           Check out my GitHub
         </a>
       </header>
-      {/* <Home />
-      <Experience />
+      <Home />
       <Projects />
-      <Nav /> */}
+      <Nav />
     </div>
   );
 }

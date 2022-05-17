@@ -26,6 +26,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -92,6 +93,10 @@ h1 {
   font-size: 2.5rem;
 }
 
+h2 {
+  font-size: 1.5rem;
+}
+
 section {
   margin-top: 8rem;
 }
@@ -148,6 +153,7 @@ a:hover {
   .container {
     width: var(--container-width-md);
   }
+
   section {
     margin-top: 6rem;
   }
